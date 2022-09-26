@@ -15,7 +15,7 @@ function App() {
 			setTimeout(() => {
 				anim.src =
 					'https://i.postimg.cc/05fbHr5p/water-animation-full-glass-1.png';
-			}, 11200);
+			}, 11100);
 		}
 	};
 	return (
