@@ -5,6 +5,13 @@
 	box-sizing: border-box;
 }
 
+#left-pointer {
+	width: 5%;
+	position: absolute;
+	left: 58%;
+	animation: leftRightWiggle 1s infinite;
+}
+
 .lg-puricare {
 	padding-bottom: 56.5%;
 	height: 0;
@@ -66,7 +73,7 @@
 	color: #000000;
 	font-family: 'Oswald', sans-serif;
 	position: absolute;
-	left: 62%;
+	left: 66%;
 	animation: textFlicker 2s infinte;
 }
 
@@ -379,5 +386,14 @@
 	}
 	100% {
 		opacity: 1;
+	}
+}
+
+@keyframes leftRightWiggle {
+	50% {
+		transform: translate(10px, 0);
+	}
+	100% {
+		transform: translate(0, 0);
 	}
 }

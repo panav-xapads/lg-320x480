@@ -37,6 +37,11 @@ function App() {
 					alt=''
 					id='lg-anim'
 				/>
+				<img
+					id='left-pointer'
+					src='https://c.tenor.com/CgfsuqBAjfwAAAAi/pointing-left-joypixels.gif'
+					alt=''
+				/>
 				<p className='lg-cta'>Tap for pure water</p>
 				<img
 					className='lg-logo'
