@@ -1,22 +1,20 @@
-import { useEffect } from 'react';
 import './App.css';
 import video from './lg-purifier video.webm';
 import videomp4 from './lg-purifier video.mp4';
+import gif from './water-animation-gif.gif';
 
 function App() {
 	const handleImageHover = () => {
 		let anim = document.getElementById('lg-anim');
 		if (
-			anim.src !==
-				'https://i.postimg.cc/GpgV7F84/water-animation-qt-gif-t.gif' &&
+			anim.src !== gif &&
 			anim.src !==
 				'https://i.postimg.cc/05fbHr5p/water-animation-full-glass-1.png'
 		) {
 			const cta = document.getElementById('lg-cta');
 			cta.innerHTML = '';
 
-			anim.src =
-				'https://i.postimg.cc/GpgV7F84/water-animation-qt-gif-t.gif';
+			anim.src = gif;
 			setTimeout(() => {
 				anim.src =
 					'https://i.postimg.cc/05fbHr5p/water-animation-full-glass-1.png';
@@ -44,8 +42,8 @@ function App() {
 	return (
 		<div className='lg-puricare'>
 			<video playsInline autoPlay muted>
-				<source src={video} type='video/webm' />
 				<source src={videomp4} type='video/mp4' />
+				<source src={video} type='video/webm' />
 			</video>
 			<div>
 				<p id='lg-slogan'>
