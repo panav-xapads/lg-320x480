@@ -1,7 +1,11 @@
+import { useEffect } from 'react';
 import './App.css';
 import video from './lg-purifier video.webm';
+import videomp4 from './lg-purifier video.mp4';
 
 function App() {
+	useEffect(() => {}, []);
+
 	const handleImageHover = () => {
 		let anim = document.getElementById('lg-anim');
 		if (
@@ -41,12 +45,9 @@ function App() {
 	};
 	return (
 		<div className='lg-puricare'>
-			<video
-				// onEnded={onVideoEnd}
-				playsinline
-				autoPlay
-				muted>
-				<source src={video} />
+			<video playsinline autoPlay muted>
+				<source src={video} type='video/webm' />
+				<source src={videomp4} type='video/mp4' />
 			</video>
 			<div>
 				<p id='lg-slogan'>
