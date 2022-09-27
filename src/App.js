@@ -43,6 +43,7 @@ function App() {
 		<div className='lg-puricare'>
 			<video
 				// onEnded={onVideoEnd}
+				playsinline
 				autoPlay
 				muted>
 				<source src={video} />
@@ -54,6 +55,7 @@ function App() {
 				</p>
 				<img
 					onMouseOver={handleImageHover}
+					onClick={handleImageHover}
 					src='https://i.ibb.co/6szfffB/water-animation-empty.png'
 					alt=''
 					id='lg-anim'

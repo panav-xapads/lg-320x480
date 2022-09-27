@@ -94,6 +94,16 @@
 	}
 }
 
+@media screen and (max-width: 340px) {
+	.lg-puricare > div > #lg-slogan {
+		font-size: 40%;
+	}
+
+	.lg-puricare > div > #lg-cta {
+		font-size: 50%;
+	}
+}
+
 .lg-puricare > .img1 {
 	width: 25px;
 	position: absolute;
