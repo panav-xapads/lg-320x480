@@ -45,7 +45,7 @@ function App() {
 	};
 	return (
 		<div className='lg-puricare'>
-			<video playsinline autoPlay muted>
+			<video playsInline autoPlay muted>
 				<source src={video} type='video/webm' />
 				<source src={videomp4} type='video/mp4' />
 			</video>
