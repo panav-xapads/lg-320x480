@@ -110,14 +110,15 @@
 	width: 25px;
 	position: absolute;
 	animation: bubble1 3s;
+	animation-delay: 3s;
 	opacity: 0;
 }
 
 .lg-puricare > .img2 {
 	width: 20px;
 	position: absolute;
-	/* animation-delay: 0.2s; */
 	animation: bubble2 3.5s;
+	animation-delay: 3s;
 	opacity: 0;
 }
 
@@ -126,6 +127,7 @@
 	position: absolute;
 	opacity: 0;
 	animation: bubble3 2s;
+	animation-delay: 3s;
 }
 
 .lg-puricare > .img4 {
@@ -133,6 +135,7 @@
 	position: absolute;
 	opacity: 0;
 	animation: bubble4 2.5s;
+	animation-delay: 3s;
 }
 
 .lg-puricare > .img5 {
@@ -140,6 +143,7 @@
 	position: absolute;
 	opacity: 0;
 	animation: bubble5 2.5s;
+	animation-delay: 3s;
 }
 
 .lg-puricare > .img6 {
@@ -147,6 +151,7 @@
 	position: absolute;
 	opacity: 0;
 	animation: bubble6 2.5s;
+	animation-delay: 3s;
 }
 
 .lg-puricare > .img7 {
@@ -154,6 +159,7 @@
 	position: absolute;
 	opacity: 0;
 	animation: bubble7 2s;
+	animation-delay: 3s;
 }
 
 .lg-puricare > .img8 {
@@ -161,6 +167,7 @@
 	position: absolute;
 	opacity: 0;
 	animation: bubble8 2.5s;
+	animation-delay: 3s;
 }
 
 .lg-puricare > .img9 {
@@ -168,6 +175,7 @@
 	position: absolute;
 	opacity: 0;
 	animation: bubble9 2.5s;
+	animation-delay: 3s;
 }
 
 .lg-puricare > .img10 {
@@ -175,6 +183,7 @@
 	position: absolute;
 	opacity: 0;
 	animation: bubble10 2.5s;
+	animation-delay: 3s;
 }
 
 @keyframes bubble1 {
