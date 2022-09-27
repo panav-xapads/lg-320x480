@@ -16,7 +16,6 @@
 	padding-bottom: 56.5%;
 	height: 0;
 	position: relative;
-	/* overflow: hidden; */
 }
 
 .lg-puricare > video {
@@ -29,12 +28,10 @@
 }
 
 .lg-puricare > div {
-	/* background-color: #411530; */
-	/* background-image: url('https://images.unsplash.com/photo-1492446190781-58ac4285911d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1105&q=80'); */
 	background-color: #ffffff;
 	background-size: cover;
 	background-position: center;
-	border-top: 3px inset #ffffff;
+	border-top: 3px solid #e0063a;
 	position: absolute;
 	transform: translateY(72%);
 	bottom: 0;
@@ -46,22 +43,22 @@
 	align-items: center;
 }
 
-.lg-puricare > div > .lg-logo {
+.lg-puricare > div > #lg-logo {
 	height: 60%;
 	position: absolute;
-	right: 3%;
+	right: 2%;
 	top: 20%;
 }
 
 .lg-puricare > div > #lg-anim {
-	width: 30%;
+	width: 32%;
 	position: absolute;
 	bottom: -30%;
-	left: 45%;
+	left: 44%;
 	transform: translateX(-50%);
 }
 
-.lg-puricare > div > .lg-slogan {
+.lg-puricare > div > #lg-slogan {
 	color: #000000;
 	font-size: 70%;
 	font-family: 'Oswald', sans-serif;
@@ -69,43 +66,43 @@
 	margin-left: 3%;
 }
 
-.lg-puricare > div > .lg-cta {
+.lg-puricare > div > #lg-cta {
 	color: #000000;
 	font-family: 'Oswald', sans-serif;
 	position: absolute;
 	left: 66%;
-	animation: textFlicker 2s infinte;
+	transition: all 1s;
 }
 
 @media screen and (max-width: 500px) {
-	.lg-puricare > div > .lg-slogan {
+	.lg-puricare > div > #lg-slogan {
 		font-size: 60%;
 	}
 
-	.lg-puricare > div > .lg-cta {
+	.lg-puricare > div > #lg-cta {
 		font-size: 70%;
 	}
 }
 
 @media screen and (max-width: 400px) {
-	.lg-puricare > div > .lg-slogan {
-		font-size: 40%;
+	.lg-puricare > div > #lg-slogan {
+		font-size: 50%;
 	}
 
-	.lg-puricare > div > .lg-cta {
+	.lg-puricare > div > #lg-cta {
 		font-size: 60%;
 	}
 }
 
 .lg-puricare > .img1 {
-	width: 30px;
+	width: 25px;
 	position: absolute;
 	animation: bubble1 3s;
 	opacity: 0;
 }
 
 .lg-puricare > .img2 {
-	width: 25px;
+	width: 20px;
 	position: absolute;
 	/* animation-delay: 0.2s; */
 	animation: bubble2 3.5s;
@@ -113,31 +110,59 @@
 }
 
 .lg-puricare > .img3 {
-	width: 27px;
+	width: 22px;
 	position: absolute;
 	opacity: 0;
 	animation: bubble3 2s;
 }
 
 .lg-puricare > .img4 {
-	width: 28px;
+	width: 23px;
 	position: absolute;
 	opacity: 0;
 	animation: bubble4 2.5s;
 }
 
 .lg-puricare > .img5 {
-	width: 26px;
+	width: 21px;
 	position: absolute;
 	opacity: 0;
 	animation: bubble5 2.5s;
 }
 
 .lg-puricare > .img6 {
-	width: 30px;
+	width: 25px;
 	position: absolute;
 	opacity: 0;
 	animation: bubble6 2.5s;
+}
+
+.lg-puricare > .img7 {
+	width: 15px;
+	position: absolute;
+	opacity: 0;
+	animation: bubble7 2s;
+}
+
+.lg-puricare > .img8 {
+	width: 14px;
+	position: absolute;
+	opacity: 0;
+	animation: bubble8 2.5s;
+}
+
+.lg-puricare > .img9 {
+	width: 15px;
+	position: absolute;
+	opacity: 0;
+	animation: bubble9 2.5s;
+}
+
+.lg-puricare > .img10 {
+	width: 14px;
+	position: absolute;
+	opacity: 0;
+	animation: bubble10 2.5s;
 }
 
 @keyframes bubble1 {
@@ -380,12 +405,163 @@
 	}
 }
 
-@keyframes textFlicker {
+@keyframes bubble7 {
 	0% {
-		opacity: 0;
+		left: 15%;
+		bottom: -10%;
+		opacity: 1;
+	}
+	10% {
+		left: 17%;
+	}
+	20% {
+		left: 15%;
+	}
+	30% {
+		left: 17.5%;
+	}
+	40% {
+		left: 16%;
+	}
+	50% {
+		left: 10%;
+	}
+	60% {
+		left: 15%;
+	}
+	70% {
+		left: 14%;
+	}
+	80% {
+		left: 17%;
+	}
+	90% {
+		left: 13%;
 	}
 	100% {
+		left: 15%;
+		bottom: 28%;
+		opacity: 0.5;
+	}
+}
+
+@keyframes bubble8 {
+	0% {
+		left: 50%;
+		bottom: -10%;
 		opacity: 1;
+	}
+	10% {
+		left: 52%;
+	}
+	20% {
+		left: 50%;
+	}
+	30% {
+		left: 52.5%;
+	}
+	40% {
+		left: 51%;
+	}
+	50% {
+		left: 45%;
+	}
+	60% {
+		left: 50%;
+	}
+	70% {
+		left: 49%;
+	}
+	80% {
+		left: 52%;
+	}
+	90% {
+		left: 48%;
+	}
+	100% {
+		left: 50%;
+		bottom: 28%;
+		opacity: 0.5;
+	}
+}
+
+@keyframes bubble9 {
+	0% {
+		left: 60%;
+		opacity: 1;
+		bottom: -10%;
+	}
+	10% {
+		left: 61%;
+	}
+	20% {
+		left: 58%;
+	}
+	30% {
+		left: 60.5%;
+	}
+	40% {
+		left: 59%;
+	}
+	50% {
+		left: 61%;
+	}
+	60% {
+		left: 59%;
+	}
+	70% {
+		left: 60%;
+	}
+	80% {
+		left: 63%;
+	}
+	90% {
+		left: 58%;
+	}
+	100% {
+		left: 60%;
+		bottom: 25%;
+		opacity: 0.5;
+	}
+}
+
+@keyframes bubble10 {
+	0% {
+		left: 90%;
+		opacity: 1;
+		bottom: -10%;
+	}
+	10% {
+		left: 91%;
+	}
+	20% {
+		left: 88%;
+	}
+	30% {
+		left: 90.5%;
+	}
+	40% {
+		left: 89%;
+	}
+	50% {
+		left: 91%;
+	}
+	60% {
+		left: 89%;
+	}
+	70% {
+		left: 90%;
+	}
+	80% {
+		left: 93%;
+	}
+	90% {
+		left: 88%;
+	}
+	100% {
+		left: 90%;
+		bottom: 25%;
+		opacity: 0.5;
 	}
 }
 

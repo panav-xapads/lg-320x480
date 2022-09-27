@@ -10,12 +10,33 @@ function App() {
 			anim.src !==
 				'https://i.postimg.cc/05fbHr5p/water-animation-full-glass-1.png'
 		) {
+			const cta = document.getElementById('lg-cta');
+			cta.innerHTML = '';
+
 			anim.src =
 				'https://i.postimg.cc/GpgV7F84/water-animation-qt-gif-t.gif';
 			setTimeout(() => {
 				anim.src =
 					'https://i.postimg.cc/05fbHr5p/water-animation-full-glass-1.png';
-			}, 11100);
+
+				cta.innerHTML = `<ul>
+					<li>True Preservation</li>
+					</ul >`;
+				cta.style.left = '64%';
+
+				setTimeout(() => {
+					let li = document.createElement('li');
+					li.innerText = 'True Maintenance';
+					document.querySelector('#lg-cta>ul').appendChild(li);
+					setTimeout(() => {
+						let li = document.createElement('li');
+						li.innerText = 'True Filtration';
+						document.querySelector('#lg-cta>ul').appendChild(li);
+					}, 1000);
+				}, 1000);
+			}, 10500);
+			const pointer = document.getElementById('left-pointer');
+			pointer.style.display = 'none';
 		}
 	};
 	return (
@@ -27,7 +48,7 @@ function App() {
 				<source src={video} />
 			</video>
 			<div>
-				<p className='lg-slogan'>
+				<p id='lg-slogan'>
 					Explore the perfect blend of health and taste with the LG
 					PuriCare True Water Purifier
 				</p>
@@ -42,41 +63,61 @@ function App() {
 					src='https://c.tenor.com/CgfsuqBAjfwAAAAi/pointing-left-joypixels.gif'
 					alt=''
 				/>
-				<p className='lg-cta'>Tap for pure water</p>
+				<p id='lg-cta'>Tap for pure water</p>
 				<img
-					className='lg-logo'
+					id='lg-logo'
 					src='https://logos-world.net/wp-content/uploads/2020/05/LG-Symbol.png'
 					alt=''
 				/>
 			</div>
 			<img
-				className='img1'
+				className='bubble img1'
 				src='https://i.ibb.co/vmysCT6/22323.png'
 				alt=''
 			/>
 			<img
-				className='img2'
+				className='bubble img2'
 				src='https://i.ibb.co/nc6mRPG/22323e.png'
 				alt=''
 			/>
 			<img
-				className='img3'
+				className='bubble img3'
 				src='https://i.ibb.co/vmysCT6/22323.png'
 				alt=''
 			/>
 			<img
-				className='img4'
+				className='bubble img4'
 				src='https://i.ibb.co/nc6mRPG/22323e.png'
 				alt=''
 			/>
 			<img
-				className='img5'
+				className='bubble img5'
 				src='https://i.ibb.co/vmysCT6/22323.png'
 				alt=''
 			/>
 			<img
-				className='img6'
+				className='bubble img6'
 				src='https://i.ibb.co/nc6mRPG/22323e.png'
+				alt=''
+			/>
+			<img
+				className='bubble img7'
+				src='https://i.ibb.co/nc6mRPG/22323e.png'
+				alt=''
+			/>
+			<img
+				className='bubble img8'
+				src='https://i.ibb.co/vmysCT6/22323.png'
+				alt=''
+			/>
+			<img
+				className='bubble img9'
+				src='https://i.ibb.co/nc6mRPG/22323e.png'
+				alt=''
+			/>
+			<img
+				className='bubble img10'
+				src='https://i.ibb.co/vmysCT6/22323.png'
 				alt=''
 			/>
 		</div>
