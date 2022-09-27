@@ -48,7 +48,7 @@ function App() {
 			<div>
 				<p id='lg-slogan'>
 					Explore the perfect blend of health and taste with the LG
-					PuriCare True Water Purifier
+					Water Purifier
 				</p>
 				<img
 					onClick={handleImageHover}
