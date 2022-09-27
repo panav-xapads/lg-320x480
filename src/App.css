@@ -86,7 +86,8 @@
 
 @media screen and (max-width: 400px) {
 	.lg-puricare > div > #lg-slogan {
-		font-size: 50%;
+		font-size: 45%;
+		margin-left: 4%;
 	}
 
 	.lg-puricare > div > #lg-cta {
@@ -96,7 +97,8 @@
 
 @media screen and (max-width: 340px) {
 	.lg-puricare > div > #lg-slogan {
-		font-size: 40%;
+		font-size: 35%;
+		margin-left: 4%;
 	}
 
 	.lg-puricare > div > #lg-cta {

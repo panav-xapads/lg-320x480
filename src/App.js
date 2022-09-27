@@ -4,8 +4,6 @@ import video from './lg-purifier video.webm';
 import videomp4 from './lg-purifier video.mp4';
 
 function App() {
-	useEffect(() => {}, []);
-
 	const handleImageHover = () => {
 		let anim = document.getElementById('lg-anim');
 		if (
@@ -55,7 +53,6 @@ function App() {
 					PuriCare True Water Purifier
 				</p>
 				<img
-					onMouseOver={handleImageHover}
 					onClick={handleImageHover}
 					src='https://i.ibb.co/6szfffB/water-animation-empty.png'
 					alt=''
