@@ -37,7 +37,7 @@ function App() {
 						document.querySelector('#lg-cta>ul').appendChild(li);
 					}, 1000);
 				}, 1000);
-			}, 10500);
+			}, 11000);
 			const pointer = document.getElementById('left-pointer');
 			pointer.style.display = 'none';
 		}
