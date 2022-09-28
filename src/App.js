@@ -13,33 +13,22 @@ function App() {
 		) {
 			const cta = document.getElementById('lg-cta');
 			cta.innerHTML = '';
+			const pointer = document.getElementById('left-pointer');
+			pointer.style.display = 'none';
 
 			anim.src = gif;
-			anim.onload(() => {
-				console.log('hello');
-			});
+
 			setTimeout(() => {
 				anim.src =
 					'https://i.postimg.cc/05fbHr5p/water-animation-full-glass-1.png';
 
 				cta.innerHTML = `<ul>
 					<li>True Preservation</li>
+					<li>True Maintenance</li>
+					<li>True Filtration</li>
 					</ul >`;
 				cta.style.left = '64%';
-
-				setTimeout(() => {
-					let li = document.createElement('li');
-					li.innerText = 'True Maintenance';
-					document.querySelector('#lg-cta>ul').appendChild(li);
-					setTimeout(() => {
-						let li = document.createElement('li');
-						li.innerText = 'True Filtration';
-						document.querySelector('#lg-cta>ul').appendChild(li);
-					}, 1000);
-				}, 1000);
 			}, 11000);
-			const pointer = document.getElementById('left-pointer');
-			pointer.style.display = 'none';
 		}
 	};
 	return (
