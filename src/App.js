@@ -15,6 +15,9 @@ function App() {
 			cta.innerHTML = '';
 
 			anim.src = gif;
+			anim.onload(() => {
+				console.log('hello');
+			});
 			setTimeout(() => {
 				anim.src =
 					'https://i.postimg.cc/05fbHr5p/water-animation-full-glass-1.png';
@@ -34,7 +37,7 @@ function App() {
 						document.querySelector('#lg-cta>ul').appendChild(li);
 					}, 1000);
 				}, 1000);
-			}, 11000);
+			}, 10500);
 			const pointer = document.getElementById('left-pointer');
 			pointer.style.display = 'none';
 		}
