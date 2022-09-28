@@ -1,27 +1,23 @@
 import './App.css';
 import video from './lg-purifier video.webm';
 import videomp4 from './lg-purifier video.mp4';
-import gif from './water-animation-gif.gif';
 
 function App() {
 	const handleImageHover = () => {
 		let anim = document.getElementById('lg-anim');
-		if (
-			anim.src !== gif &&
-			anim.src !==
-				'https://i.postimg.cc/05fbHr5p/water-animation-full-glass-1.png'
-		) {
-			const cta = document.getElementById('lg-cta');
-			cta.innerHTML = '';
-			const pointer = document.getElementById('left-pointer');
-			pointer.style.display = 'none';
+		let gif =
+			'https://asset.xapads.com/react-xpd-ads/assets/lg-puricare/water-animation-fill-single.gif';
 
+		if (anim.src !== gif) {
 			anim.src = gif;
 
-			setTimeout(() => {
-				anim.src =
-					'https://i.postimg.cc/05fbHr5p/water-animation-full-glass-1.png';
+			const cta = document.getElementById('lg-cta');
+			const pointer = document.getElementById('left-pointer');
 
+			cta.innerHTML = '';
+			pointer.style.display = 'none';
+
+			setTimeout(() => {
 				cta.innerHTML = `<ul>
 					<li>True Preservation</li>
 					<li>True Maintenance</li>
