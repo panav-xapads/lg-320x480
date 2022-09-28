@@ -40,7 +40,7 @@ function App() {
 				</p>
 				<img
 					onClick={handleImageHover}
-					src='https://i.ibb.co/6szfffB/water-animation-empty.png'
+					src='https://asset.xapads.com/react-xpd-ads/assets/lg-puricare/water%20animation%20empty.png'
 					alt=''
 					id='lg-anim'
 				/>
@@ -58,52 +58,52 @@ function App() {
 			</div>
 			<img
 				className='bubble img1'
-				src='https://i.ibb.co/vmysCT6/22323.png'
+				src='https://asset.xapads.com/react-xpd-ads/assets/lg-puricare/22323.png'
 				alt=''
 			/>
 			<img
 				className='bubble img2'
-				src='https://i.ibb.co/nc6mRPG/22323e.png'
+				src='https://asset.xapads.com/react-xpd-ads/assets/lg-puricare/22323e.png'
 				alt=''
 			/>
 			<img
 				className='bubble img3'
-				src='https://i.ibb.co/vmysCT6/22323.png'
+				src='https://asset.xapads.com/react-xpd-ads/assets/lg-puricare/22323.png'
 				alt=''
 			/>
 			<img
 				className='bubble img4'
-				src='https://i.ibb.co/nc6mRPG/22323e.png'
+				src='https://asset.xapads.com/react-xpd-ads/assets/lg-puricare/22323e.png'
 				alt=''
 			/>
 			<img
 				className='bubble img5'
-				src='https://i.ibb.co/vmysCT6/22323.png'
+				src='https://asset.xapads.com/react-xpd-ads/assets/lg-puricare/22323.png'
 				alt=''
 			/>
 			<img
 				className='bubble img6'
-				src='https://i.ibb.co/nc6mRPG/22323e.png'
+				src='https://asset.xapads.com/react-xpd-ads/assets/lg-puricare/22323e.png'
 				alt=''
 			/>
 			<img
 				className='bubble img7'
-				src='https://i.ibb.co/nc6mRPG/22323e.png'
+				src='https://asset.xapads.com/react-xpd-ads/assets/lg-puricare/22323e.png'
 				alt=''
 			/>
 			<img
 				className='bubble img8'
-				src='https://i.ibb.co/vmysCT6/22323.png'
+				src='https://asset.xapads.com/react-xpd-ads/assets/lg-puricare/22323.png'
 				alt=''
 			/>
 			<img
 				className='bubble img9'
-				src='https://i.ibb.co/nc6mRPG/22323e.png'
+				src='https://asset.xapads.com/react-xpd-ads/assets/lg-puricare/22323e.png'
 				alt=''
 			/>
 			<img
 				className='bubble img10'
-				src='https://i.ibb.co/vmysCT6/22323.png'
+				src='https://asset.xapads.com/react-xpd-ads/assets/lg-puricare/22323.png'
 				alt=''
 			/>
 		</div>
@@ -111,9 +111,3 @@ function App() {
 }
 
 export default App;
-
-// https://ibb.co/sQx5pNd
-// https://ibb.co/tsQK3LG
-// https://ibb.co/0JTdddt
-// https://ibb.co/3ShjkCX
-// https://ibb.co/vjwPdpJ
