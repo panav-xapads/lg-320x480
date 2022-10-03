@@ -23,13 +23,13 @@ function App() {
 					<li>True Maintenance</li>
 					<li>True Filtration</li>
 					</ul >`;
-				cta.style.left = '64%';
+				cta.style.left = '62%';
 			}, 11000);
 		}
 	};
 	return (
 		<div className='lg-puricare'>
-			<video playsInline autoPlay muted>
+			<video playsInline autoPlay muted loop>
 				<source src={videomp4} type='video/mp4' />
 				<source src={video} type='video/webm' />
 			</video>

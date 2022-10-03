@@ -6,23 +6,25 @@
 }
 
 #left-pointer {
-	width: 5%;
+	width: 14px;
 	position: absolute;
-	left: 58%;
+	left: 53%;
 	animation: leftRightWiggle 1s infinite;
 }
 
 .lg-puricare {
-	padding-bottom: 56.5%;
-	height: 0;
+	/* padding-bottom: 56.5%; */
 	position: relative;
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
 }
 
 .lg-puricare > video {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+
 	position: absolute;
 	z-index: -1;
 }
@@ -33,77 +35,45 @@
 	background-position: center;
 	border-top: 3px solid #e0063a;
 	position: absolute;
-	transform: translateY(72%);
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 25%;
+	height: 33%;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 }
 
 .lg-puricare > div > #lg-logo {
-	height: 60%;
+	height: 42px;
 	position: absolute;
-	right: 2%;
-	top: 20%;
+	right: 1%;
+	top: 20px;
 }
 
 .lg-puricare > div > #lg-anim {
-	width: 32%;
+	width: 40%;
 	position: absolute;
-	bottom: -30%;
-	left: 44%;
+	bottom: -10%;
+	left: 36%;
 	transform: translateX(-50%);
 }
 
 .lg-puricare > div > #lg-slogan {
 	color: #000000;
-	font-size: 70%;
+	font-size: 8px;
 	font-family: 'Oswald', sans-serif;
-	width: 25%;
+	width: 16%;
 	margin-left: 3%;
 }
 
 .lg-puricare > div > #lg-cta {
 	color: #000000;
 	font-family: 'Oswald', sans-serif;
+	font-size: 8px;
 	position: absolute;
-	left: 66%;
+	left: 61%;
 	transition: all 1s;
-}
-
-@media screen and (max-width: 500px) {
-	.lg-puricare > div > #lg-slogan {
-		font-size: 60%;
-	}
-
-	.lg-puricare > div > #lg-cta {
-		font-size: 70%;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	.lg-puricare > div > #lg-slogan {
-		font-size: 45%;
-		margin-left: 4%;
-	}
-
-	.lg-puricare > div > #lg-cta {
-		font-size: 60%;
-	}
-}
-
-@media screen and (max-width: 340px) {
-	.lg-puricare > div > #lg-slogan {
-		font-size: 35%;
-		margin-left: 4%;
-	}
-
-	.lg-puricare > div > #lg-cta {
-		font-size: 50%;
-	}
 }
 
 .lg-puricare > .img1 {
@@ -588,7 +558,7 @@
 
 @keyframes leftRightWiggle {
 	50% {
-		transform: translate(8px, 0);
+		transform: translate(5px, 0);
 	}
 	100% {
 		transform: translate(0, 0);
