@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import './App.css';
 import video from './lg-purifier video.webm';
 import videomp4 from './lg-purifier video.mp4';
@@ -29,14 +30,23 @@ function App() {
 	};
 	return (
 		<div className='lg-puricare'>
+			<img
+				id='lg-adbutler'
+				src='https://servedbyadbutler.com/adserve/;ID=182545;size=1x1;type=tpixel;setID=583799;plid=1908247;BID=520791157;wt=0;rnd=CACHE_BUSTER_MACRO'
+				alt=''
+			/>
 			<video id='lg-bg-vid' playsInline autoPlay muted>
 				<source src={videomp4} type='video/mp4' />
 				<source src={video} type='video/webm' />
 			</video>
-			<video id='lg-fg-vid' playsInline autoPlay muted>
-				<source src={videomp4} type='video/mp4' />
-				<source src={video} type='video/webm' />
-			</video>
+			<a
+				href='https://servedbyadbutler.com/redirect.spark?MID=182545&plid=1908247&setID=583799&channelID=0&CID=701783&banID=520791157&PID=0&textadID=0&tc=1&type=tclick&mt=1&hc=1faf223e457c4385f54e6f32aea0c363700b7a6f&location='
+				target='_blank'>
+				<video id='lg-fg-vid' playsInline autoPlay muted>
+					<source src={videomp4} type='video/mp4' />
+					<source src={video} type='video/webm' />
+				</video>
+			</a>
 			<div>
 				<p id='lg-slogan'>
 					Explore the perfect blend of health and taste with the LG

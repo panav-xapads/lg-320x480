@@ -20,6 +20,11 @@
 	overflow: hidden;
 }
 
+.lg-puricare > img#lg-adbutler {
+	width: 0;
+	height: 0;
+}
+
 .lg-puricare > video#lg-bg-vid {
 	top: -100px !important;
 	left: -265px;
@@ -31,7 +36,7 @@
 	z-index: -1;
 }
 
-.lg-puricare > video#lg-fg-vid {
+.lg-puricare video#lg-fg-vid {
 	width: 100%;
 	position: absolute;
 	bottom: 200px;
