@@ -6,27 +6,35 @@
 }
 
 #left-pointer {
-	width: 14px;
+	width: 16px;
 	position: absolute;
-	left: 53%;
+	left: 55%;
 	animation: leftRightWiggle 1s infinite;
 }
 
 .lg-puricare {
 	/* padding-bottom: 56.5%; */
 	position: relative;
-	width: 300px;
-	height: 250px;
+	width: 320px;
+	height: 480px;
 	overflow: hidden;
 }
 
-.lg-puricare > video {
-	top: 0;
-	left: 0;
-	width: 100%;
-
+.lg-puricare > video#lg-bg-vid {
+	top: -100px !important;
+	left: -265px;
+	/* width: 100%; */
+	filter: blur(15px);
+	height: 100%;
 	position: absolute;
+	top: 75px;
 	z-index: -1;
+}
+
+.lg-puricare > video#lg-fg-vid {
+	width: 100%;
+	position: absolute;
+	bottom: 200px;
 }
 
 .lg-puricare > div {
@@ -38,7 +46,7 @@
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 33%;
+	height: 100px;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -47,14 +55,14 @@
 .lg-puricare > div > #lg-logo {
 	height: 42px;
 	position: absolute;
-	right: 1%;
-	top: 20px;
+	right: -1%;
+	top: 29px;
 }
 
 .lg-puricare > div > #lg-anim {
-	width: 40%;
+	width: 140px;
 	position: absolute;
-	bottom: -10%;
+	bottom: 0%;
 	left: 36%;
 	transform: translateX(-50%);
 }
@@ -72,7 +80,7 @@
 	font-family: 'Oswald', sans-serif;
 	font-size: 8px;
 	position: absolute;
-	left: 61%;
+	left: 63%;
 	transition: all 1s;
 }
 

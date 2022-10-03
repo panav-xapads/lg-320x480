@@ -29,7 +29,11 @@ function App() {
 	};
 	return (
 		<div className='lg-puricare'>
-			<video playsInline autoPlay muted loop>
+			<video id='lg-bg-vid' playsInline autoPlay muted>
+				<source src={videomp4} type='video/mp4' />
+				<source src={video} type='video/webm' />
+			</video>
+			<video id='lg-fg-vid' playsInline autoPlay muted>
 				<source src={videomp4} type='video/mp4' />
 				<source src={video} type='video/webm' />
 			</video>
