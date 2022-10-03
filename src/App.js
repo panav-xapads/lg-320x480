@@ -23,7 +23,7 @@ function App() {
 					<li>True Maintenance</li>
 					<li>True Filtration</li>
 					</ul >`;
-				cta.style.left = '62%';
+				cta.style.left = '59%';
 			}, 11000);
 		}
 	};
